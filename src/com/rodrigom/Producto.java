@@ -1,6 +1,6 @@
 package com.rodrigom;
 
-public abstract class Producto implements Comparable<Producto>{
+public abstract class Producto implements Comparable<Producto> , IProductos{
     private String nombre;
     private int precio;
 
