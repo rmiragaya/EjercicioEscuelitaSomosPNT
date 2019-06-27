@@ -39,13 +39,13 @@ public class Main {
 
         Collections.sort(lista);
         Collections.reverse(lista);
-        System.out.println("Mas Caro = " + lista.get(0).getNombre());
+        System.out.println("Producto más caro: " + lista.get(0).getNombre());
 
     }
 
     public static void masBarato(ArrayList<Producto> lista){
         Collections.sort(lista);
-        System.out.println("Mas Barato = " +lista.get(0).getNombre());
+        System.out.println("Producto más barato: " +lista.get(0).getNombre());
 
     }
 
