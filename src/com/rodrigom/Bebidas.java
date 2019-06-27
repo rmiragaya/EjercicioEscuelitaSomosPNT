@@ -25,7 +25,7 @@ public class Bebidas extends Producto {
     @Override
     public String toString() {
         return ("Nombre: " + getNombre() +
-                " /// Contenido: " +  getLitros() +
+                " /// Litros: " +  getLitros() +
                 " /// Precio: $" + getPrecio());
     }
 }
